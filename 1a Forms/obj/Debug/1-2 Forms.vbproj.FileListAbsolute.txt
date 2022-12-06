@@ -1,0 +1,12 @@
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\bin\Debug\1-2 Forms.exe.config
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\bin\Debug\1-2 Forms.exe
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\bin\Debug\1-2 Forms.pdb
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\bin\Debug\1-2 Forms.xml
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\obj\Debug\1-2 Forms.vbproj.AssemblyReference.cache
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\obj\Debug\_1_2_Forms.Resources.resources
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\obj\Debug\1-2 Forms.vbproj.GenerateResource.cache
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\obj\Debug\1-2 Forms.vbproj.CoreCompileInputs.cache
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\obj\Debug\1-2 Forms.exe
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\obj\Debug\1-2 Forms.xml
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\obj\Debug\1-2 Forms.pdb
+C:\Users\octavianus.bagus\Documents\VB\1-2 Forms\obj\Debug\_1_2_Forms.Form1.resources
