@@ -1,0 +1,232 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.btnSeven = New System.Windows.Forms.Button()
+        Me.btnEight = New System.Windows.Forms.Button()
+        Me.btnNine = New System.Windows.Forms.Button()
+        Me.btnSix = New System.Windows.Forms.Button()
+        Me.btnFive = New System.Windows.Forms.Button()
+        Me.btnFour = New System.Windows.Forms.Button()
+        Me.btnThree = New System.Windows.Forms.Button()
+        Me.btnTwo = New System.Windows.Forms.Button()
+        Me.btnOne = New System.Windows.Forms.Button()
+        Me.btnZero = New System.Windows.Forms.Button()
+        Me.txtDisplay = New System.Windows.Forms.TextBox()
+        Me.btnPlus = New System.Windows.Forms.Button()
+        Me.btnEquals = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'btnSeven
+        '
+        Me.btnSeven.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnSeven.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSeven.Location = New System.Drawing.Point(77, 137)
+        Me.btnSeven.Name = "btnSeven"
+        Me.btnSeven.Size = New System.Drawing.Size(58, 50)
+        Me.btnSeven.TabIndex = 0
+        Me.btnSeven.Text = "7"
+        Me.btnSeven.UseVisualStyleBackColor = False
+        '
+        'btnEight
+        '
+        Me.btnEight.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnEight.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEight.Location = New System.Drawing.Point(163, 137)
+        Me.btnEight.Name = "btnEight"
+        Me.btnEight.Size = New System.Drawing.Size(58, 50)
+        Me.btnEight.TabIndex = 1
+        Me.btnEight.Text = "8"
+        Me.btnEight.UseVisualStyleBackColor = False
+        '
+        'btnNine
+        '
+        Me.btnNine.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnNine.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNine.Location = New System.Drawing.Point(252, 137)
+        Me.btnNine.Name = "btnNine"
+        Me.btnNine.Size = New System.Drawing.Size(58, 50)
+        Me.btnNine.TabIndex = 2
+        Me.btnNine.Text = "9"
+        Me.btnNine.UseVisualStyleBackColor = False
+        '
+        'btnSix
+        '
+        Me.btnSix.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnSix.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSix.Location = New System.Drawing.Point(252, 217)
+        Me.btnSix.Name = "btnSix"
+        Me.btnSix.Size = New System.Drawing.Size(58, 50)
+        Me.btnSix.TabIndex = 5
+        Me.btnSix.Text = "6"
+        Me.btnSix.UseVisualStyleBackColor = False
+        '
+        'btnFive
+        '
+        Me.btnFive.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnFive.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnFive.Location = New System.Drawing.Point(163, 217)
+        Me.btnFive.Name = "btnFive"
+        Me.btnFive.Size = New System.Drawing.Size(58, 50)
+        Me.btnFive.TabIndex = 4
+        Me.btnFive.Text = "5"
+        Me.btnFive.UseVisualStyleBackColor = False
+        '
+        'btnFour
+        '
+        Me.btnFour.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnFour.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnFour.Location = New System.Drawing.Point(77, 217)
+        Me.btnFour.Name = "btnFour"
+        Me.btnFour.Size = New System.Drawing.Size(58, 50)
+        Me.btnFour.TabIndex = 3
+        Me.btnFour.Text = "4"
+        Me.btnFour.UseVisualStyleBackColor = False
+        '
+        'btnThree
+        '
+        Me.btnThree.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnThree.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnThree.Location = New System.Drawing.Point(252, 298)
+        Me.btnThree.Name = "btnThree"
+        Me.btnThree.Size = New System.Drawing.Size(58, 50)
+        Me.btnThree.TabIndex = 8
+        Me.btnThree.Text = "3"
+        Me.btnThree.UseVisualStyleBackColor = False
+        '
+        'btnTwo
+        '
+        Me.btnTwo.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnTwo.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTwo.Location = New System.Drawing.Point(163, 298)
+        Me.btnTwo.Name = "btnTwo"
+        Me.btnTwo.Size = New System.Drawing.Size(58, 50)
+        Me.btnTwo.TabIndex = 7
+        Me.btnTwo.Text = "2"
+        Me.btnTwo.UseVisualStyleBackColor = False
+        '
+        'btnOne
+        '
+        Me.btnOne.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnOne.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnOne.Location = New System.Drawing.Point(77, 298)
+        Me.btnOne.Name = "btnOne"
+        Me.btnOne.Size = New System.Drawing.Size(58, 50)
+        Me.btnOne.TabIndex = 6
+        Me.btnOne.Text = "1"
+        Me.btnOne.UseVisualStyleBackColor = False
+        '
+        'btnZero
+        '
+        Me.btnZero.BackColor = System.Drawing.Color.PowderBlue
+        Me.btnZero.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnZero.Location = New System.Drawing.Point(163, 376)
+        Me.btnZero.Name = "btnZero"
+        Me.btnZero.Size = New System.Drawing.Size(58, 50)
+        Me.btnZero.TabIndex = 10
+        Me.btnZero.Text = "0"
+        Me.btnZero.UseVisualStyleBackColor = False
+        '
+        'txtDisplay
+        '
+        Me.txtDisplay.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDisplay.Location = New System.Drawing.Point(77, 59)
+        Me.txtDisplay.Name = "txtDisplay"
+        Me.txtDisplay.Size = New System.Drawing.Size(326, 34)
+        Me.txtDisplay.TabIndex = 11
+        '
+        'btnPlus
+        '
+        Me.btnPlus.BackColor = System.Drawing.Color.CadetBlue
+        Me.btnPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPlus.Location = New System.Drawing.Point(345, 137)
+        Me.btnPlus.Name = "btnPlus"
+        Me.btnPlus.Size = New System.Drawing.Size(58, 50)
+        Me.btnPlus.TabIndex = 12
+        Me.btnPlus.Text = "+"
+        Me.btnPlus.UseVisualStyleBackColor = False
+        '
+        'btnEquals
+        '
+        Me.btnEquals.BackColor = System.Drawing.Color.CadetBlue
+        Me.btnEquals.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEquals.Location = New System.Drawing.Point(345, 217)
+        Me.btnEquals.Name = "btnEquals"
+        Me.btnEquals.Size = New System.Drawing.Size(58, 50)
+        Me.btnEquals.TabIndex = 13
+        Me.btnEquals.Text = "="
+        Me.btnEquals.UseVisualStyleBackColor = False
+        '
+        'btnClear
+        '
+        Me.btnClear.BackColor = System.Drawing.Color.CadetBlue
+        Me.btnClear.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClear.Location = New System.Drawing.Point(345, 298)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(58, 50)
+        Me.btnClear.TabIndex = 14
+        Me.btnClear.Text = "C"
+        Me.btnClear.UseVisualStyleBackColor = False
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(460, 474)
+        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.btnEquals)
+        Me.Controls.Add(Me.btnPlus)
+        Me.Controls.Add(Me.txtDisplay)
+        Me.Controls.Add(Me.btnZero)
+        Me.Controls.Add(Me.btnThree)
+        Me.Controls.Add(Me.btnTwo)
+        Me.Controls.Add(Me.btnOne)
+        Me.Controls.Add(Me.btnSix)
+        Me.Controls.Add(Me.btnFive)
+        Me.Controls.Add(Me.btnFour)
+        Me.Controls.Add(Me.btnNine)
+        Me.Controls.Add(Me.btnEight)
+        Me.Controls.Add(Me.btnSeven)
+        Me.Name = "Form1"
+        Me.Text = "Calculator"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents btnSeven As Button
+    Friend WithEvents btnEight As Button
+    Friend WithEvents btnNine As Button
+    Friend WithEvents btnSix As Button
+    Friend WithEvents btnFive As Button
+    Friend WithEvents btnFour As Button
+    Friend WithEvents btnThree As Button
+    Friend WithEvents btnTwo As Button
+    Friend WithEvents btnOne As Button
+    Friend WithEvents btnZero As Button
+    Friend WithEvents txtDisplay As TextBox
+    Friend WithEvents btnPlus As Button
+    Friend WithEvents btnEquals As Button
+    Friend WithEvents btnClear As Button
+End Class
