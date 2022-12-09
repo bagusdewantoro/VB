@@ -4,9 +4,8 @@
     Dim total As Integer
     Dim currentOperation As String
 
-
-    Private Sub btnMultiply_Click(sender As Object, e As EventArgs) Handles btnMultiply.Click
-        Select Case currentOperation
+    Private Sub result(operation As String)
+        Select Case operation
             Case "plus"
                 If (total = 0) Then
                     total = txtDisplay.Text
@@ -35,142 +34,29 @@
 
         initNumber = 0
         txtDisplay.Text = total
-        currentOperation = "multiply"
+        currentOperation = operation
+    End Sub
+
+
+    Private Sub btnMultiply_Click(sender As Object, e As EventArgs) Handles btnMultiply.Click
+        result("multiply")
     End Sub
 
     Private Sub btnDivide_Click(sender As Object, e As EventArgs) Handles btnDivide.Click
-        Select Case currentOperation
-            Case "plus"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total + txtDisplay.Text
-                End If
-            Case "minus"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total - txtDisplay.Text
-                End If
-            Case "multiply"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total * txtDisplay.Text
-                End If
-            Case "divide"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total / txtDisplay.Text
-                End If
-        End Select
-
-        initNumber = 0
-        txtDisplay.Text = total
-        currentOperation = "divide"
+        result("divide")
     End Sub
 
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnPlus.Click
-
-        Select Case currentOperation
-            Case "plus"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total + txtDisplay.Text
-                End If
-            Case "minus"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total - txtDisplay.Text
-                End If
-            Case "multiply"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total * txtDisplay.Text
-                End If
-            Case "divide"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total / txtDisplay.Text
-                End If
-        End Select
-
-        initNumber = 0
-        txtDisplay.Text = total
-        currentOperation = "plus"
+        result("plus")
     End Sub
 
     Private Sub btnMinus_Click(sender As Object, e As EventArgs) Handles btnMinus.Click
-
-        Select Case currentOperation
-            Case "plus"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total + txtDisplay.Text
-                End If
-            Case "minus"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total - txtDisplay.Text
-                End If
-            Case "multiply"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total * txtDisplay.Text
-                End If
-            Case "divide"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total / txtDisplay.Text
-                End If
-        End Select
-
-        initNumber = 0
-        txtDisplay.Text = total
-        currentOperation = "minus"
+        result("minus")
     End Sub
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles btnEquals.Click
-
-        Select Case currentOperation
-            Case "plus"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total + txtDisplay.Text
-                End If
-            Case "minus"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total - txtDisplay.Text
-                End If
-            Case "multiply"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total * txtDisplay.Text
-                End If
-            Case "divide"
-                If (total = 0) Then
-                    total = txtDisplay.Text
-                Else
-                    total = total / txtDisplay.Text
-                End If
-        End Select
-
-        initNumber = 0
-        txtDisplay.Text = total
+        result(currentOperation)
         total = 0
     End Sub
 
