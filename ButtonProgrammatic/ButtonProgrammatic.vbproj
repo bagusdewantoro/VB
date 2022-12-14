@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C780A66D-68A0-4FEE-9C46-38B845D493D1}</ProjectGuid>
+    <ProjectGuid>{E5891B43-B9AA-4502-B097-02B1941CDEBE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>BagusForm.My.MyApplication</StartupObject>
-    <RootNamespace>BagusForm</RootNamespace>
-    <AssemblyName>BagusForm</AssemblyName>
+    <StartupObject>ButtonProgrammatic.My.MyApplication</StartupObject>
+    <RootNamespace>ButtonProgrammatic</RootNamespace>
+    <AssemblyName>ButtonProgrammatic</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>BagusForm.xml</DocumentationFile>
+    <DocumentationFile>ButtonProgrammatic.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>BagusForm.xml</DocumentationFile>
+    <DocumentationFile>ButtonProgrammatic.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

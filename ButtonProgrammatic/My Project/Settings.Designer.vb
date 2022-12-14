@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
 
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")> _
-        Friend ReadOnly Property Settings() As Global.BagusForm.My.MySettings
+        Friend ReadOnly Property Settings() As Global.ButtonProgrammatic.My.MySettings
             Get
-                Return Global.BagusForm.My.MySettings.Default
+                Return Global.ButtonProgrammatic.My.MySettings.Default
             End Get
         End Property
     End Module

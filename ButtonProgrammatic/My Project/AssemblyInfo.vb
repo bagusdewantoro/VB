@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("BagusForm")>
+<Assembly: AssemblyTitle("ButtonProgrammatic")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("BagusForm")>
+<Assembly: AssemblyProduct("ButtonProgrammatic")>
 <Assembly: AssemblyCopyright("Copyright ©  2022")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("9ee4ce09-982e-45bc-8105-715f74dd9054")>
+<Assembly: Guid("0e9f5dc3-3cf7-444c-a5d3-64700296d142")>
 
 ' Version information for an assembly consists of the following four values:
 '
