@@ -4,15 +4,15 @@
         Dim number2 As Integer
         Dim answer As Integer
 
-        If Integer.TryParse(txtFirstNumber.Text, 0) And Integer.TryParse(txtSecondNumber.Text, 0) Then
+        Try
             number1 = txtFirstNumber.Text
             number2 = txtSecondNumber.Text
             answer = number1 + number2
             txtNumberResult.Text = answer
-        Else
-            MessageBox.Show("Please Input Number Only")
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
             txtNumberResult.Text = ""
-        End If
+        End Try
 
     End Sub
 
